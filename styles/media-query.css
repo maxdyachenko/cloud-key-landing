@@ -1,0 +1,144 @@
+@media screen and (max-width: 1000px){
+	header{
+		background-color: #000;
+	}
+}
+@media screen and (max-width: 980px){
+	body{
+		font-size: 10px;
+	}
+	.sandwich{
+		display: flex;
+		width: 47px;
+		height: 60px;
+		border: none;
+	}
+	.content-wrapper{
+		max-width: 640px
+	}
+	.header-content-wrap{
+		display: none;
+	}
+	.header-content-wrap.active{
+		display: flex;
+		flex-direction: column;
+	}
+	header{
+		min-height: 66px;
+	}
+	.logo-link,
+	.about-description{
+		margin: 2rem 0;
+		text-align: center;
+	}
+	.main{
+		padding-bottom: 2rem;
+	}
+	.main .subheader-text{
+		margin-top: 10rem;
+	}
+	.about-content-wrap{
+		max-width: 640px;
+		margin: 0 auto;
+	}
+	.about-content-wrap .content-wrapper{
+		width: 85%;
+	}
+	.catalog .catalog-wrap{
+		flex-direction: column;
+	}
+	.catalog .column-wrap{
+		width: 100%;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 800px){
+	html{
+		font-size: 14px;
+	}
+	.sandwich{
+		top: 17px;
+		left: 90%;
+	}
+	.contacts{
+		padding: 3.9rem 0 4.4rem 0;
+	}
+	.catalog{
+		padding-bottom: 3.5rem;
+	}
+}
+@media screen and (max-width: 650px){
+	html{
+		font-size: 13px;
+	}
+	.main h1{
+		font-size: 4rem;
+	}
+	.sandwich{
+		top: 17px;
+		left: 90%;
+	}
+	.products .content-wrapper{
+		flex-direction: column;
+	}
+	.product-item{
+		width: 100%;
+		flex-direction: row;
+	}
+	.description-wrap{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.product-item > img{
+		width: 50%;
+		height: 100%;
+		margin-bottom: 4rem;
+	}
+	.product-title{
+		font-size: 1.8rem;
+	}
+	.product-descr{
+		font-size: 1.4rem;
+	}
+	.catalog .catalog-links{
+		font-size: 1rem;
+	}
+	.catalog .catalog-item-text{
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 520px){
+	html{
+		font-size: 13px;
+	}
+	.sandwich{
+		left: 85%;
+	}
+	.product-item{
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 4rem;
+	}
+	.product-item > img{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.main h1{
+		font-size: 3rem;
+	}
+	.about h3{
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 400px){
+	.sandwich{
+		width: 35px;
+	}
+	.logo-link > img{
+		width: 100%;
+	}
+	.catalog{
+		padding-top: 4.9rem;
+	}
+}
